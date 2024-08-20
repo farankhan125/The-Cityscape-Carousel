@@ -1,0 +1,451 @@
+@font-face {
+    font-family: 'humanist';
+    src: url('fonts/Humanist521BT.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: humanist;
+    color: #FFFFFF;
+    background-color: #333333;
+}
+
+header {
+    margin-top: 25px;
+    font-size: 40px;
+    text-align: center;
+}
+
+.roller {
+    height: 550px;
+    margin-top: 20px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+.shade {
+    width: 385px;
+    height: 500px;
+    border-radius: 15px;
+    background-color: black;
+    opacity: 0.5;
+    position: absolute;
+}
+
+.content {
+    padding: 275px 30px 0 30px;
+    font-weight: 100;
+    line-height: 1.3;
+    letter-spacing: 0.5px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.content>h1 {
+    font-weight: 100;
+}
+
+.content>p {
+    margin-left: 2px;
+}
+
+.buttons {
+    width: 100%;
+    padding: 0px 50px;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    z-index: 1;
+}
+
+.all-cards {
+    width: 385px;
+    height: 500px;
+    border-radius: 15px;
+    background-size: cover;
+    background-position-x: center;
+    position: absolute;
+    transition: 0.7s ease-in-out;
+}
+
+.card1 {
+    background-image: url('imgs/Berlin.jpg');
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.card2 {
+    background-image: url('imgs/Dubai.jpg');
+    left: calc(50% + 385px);
+    transform: translateX(-50%) scale(0.9);
+}
+
+.card3 {
+    background-image: url('imgs/Istanbul.jpg');
+    left: calc(50% + 731px);
+    transform: translateX(-50%) scale(0.8);
+}
+
+.card4 {
+    background-image: url('imgs/Barcelona.jpg');
+    left: calc(50% + 1058px);
+    transform: translateX(-50%) scale(0.8);
+}
+
+.card5 {
+    background-image: url('imgs/Islamabad.jpg');
+    left: calc(50% + 1385px);
+    transform: translateX(-50%) scale(0.8);
+}
+
+.card6 {
+    background-image: url('imgs/Doha.jpg');
+    left: calc(50% + 1712px);
+    transform: translateX(-50%) scale(0.8);
+}
+
+.card7 {
+    background-image: url('imgs/Rome.jpg');
+    left: calc(50% + 2039px);
+    transform: translateX(-50%) scale(0.8);
+}
+
+.card8 {
+    background-image: url('imgs/Mumbai.jpg');
+    left: calc(50% + 2366px);
+    transform: translateX(-50%) scale(0.8);
+}
+
+.card9 {
+    background-image: url('imgs/London.jpg');
+    left: calc(50% + 2693px);
+    transform: translateX(-50%) scale(0.8);
+}
+
+.card10 {
+    background-image: url('imgs/Kabul.jpg');
+    left: calc(50% + 3020px);
+    transform: translateX(-50%) scale(0.8);
+}
+
+.card11 {
+    background-image: url('imgs/New-York.jpg');
+    left: calc(50% + 3347px);
+    transform: translateX(-50%) scale(0.8);
+}
+
+.r-button, .l-button {
+    transition: 0.3s ease-in-out;
+}
+
+.r-button {
+    opacity: 1;
+}
+
+.l-button {
+    opacity: 0;
+}
+
+.r-button:hover, .l-button:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.slide-dots {
+    margin: 15px 0 20px 0;
+    display: flex;
+    justify-content: center;
+    gap: 7px;
+}
+
+.dots {
+    width: 15px;
+    height: 15px;
+    background-color: #F3F3F3;
+    border-radius: 100px;
+}
+
+.active-dot {
+    background-color: #9A9A9A;
+}
+
+
+
+
+/* Slider Values For Cards */
+
+.slide0 {
+    transform: translateX(-50%) scale(0.8);
+    left: calc(50% + -3347px);
+}
+
+.slide1 {
+    transform: translateX(-50%) scale(0.8);
+    left: calc(50% + -3020px);
+}
+
+.slide2 {
+    transform: translateX(-50%) scale(0.8);
+    left: calc(50% + -2693px);
+}
+
+.slide3 {
+    transform: translateX(-50%) scale(0.8);
+    left: calc(50% + -2366px);
+}
+
+.slide4 {
+    transform: translateX(-50%) scale(0.8);
+    left: calc(50% + -2039px);
+}
+
+.slide5 {
+    transform: translateX(-50%) scale(0.8);
+    left: calc(50% + -1712px);
+}
+
+.slide6 {
+    transform: translateX(-50%) scale(0.8);
+    left: calc(50% + -1385px);
+}
+
+.slide7 {
+    transform: translateX(-50%) scale(0.8);
+    left: calc(50% + -1058px);
+}
+
+.slide8 {
+    transform: translateX(-50%) scale(0.8);
+    left: calc(50% + -731px);
+}
+
+.slide9 {
+    transform: translateX(-50%) scale(0.9);
+    left: calc(50% + -385px);
+}
+
+.slide10 {
+    transform: translateX(-50%) scale(1);
+    left: calc(50%);
+}
+
+.slide11 {
+    transform: translateX(-50%) scale(0.9);
+    left: calc(50% + 385px);
+}
+
+.slide12 {
+    transform: translateX(-50%) scale(0.8);
+    left: calc(50% + 731px);
+}
+
+.slide13 {
+    transform: translateX(-50%) scale(0.8);
+    left: calc(50% + 1058px);
+}
+
+.slide14 {
+    transform: translateX(-50%) scale(0.8);
+    left: calc(50% + 1385px);
+}
+
+.slide15 {
+    transform: translateX(-50%) scale(0.8);
+    left: calc(50% + 1712px);
+}
+
+.slide16 {
+    transform: translateX(-50%) scale(0.8);
+    left: calc(50% + 2039px);
+}
+
+.slide17 {
+    transform: translateX(-50%) scale(0.8);
+    left: calc(50% + 2366px);
+}
+
+.slide18 {
+    transform: translateX(-50%) scale(0.8);
+    left: calc(50% + 2693px);
+}
+
+.slide19 {
+    transform: translateX(-50%) scale(0.8);
+    left: calc(50% + 3020px);
+}
+
+
+/* Media Quries Below */
+
+@media screen and (max-width: 1250px) {
+    .roller {
+        margin-top: 15px;
+    }
+
+    .buttons {
+        margin-top: -60px;
+        padding: 0 40px;
+    }
+
+    .r-button, .l-button {
+        width: 40px;
+        height: 40px;
+    }
+
+    .slide-dots {
+        margin-top: 10px;
+    }
+
+    .all-cards, .shade {
+        width: 355px;
+        height: 462px;
+    }
+
+    .content {
+        padding: 225px 25px 0 25px;
+    }
+
+    .card2 {
+        left: calc(50% + 356px);
+    }
+
+    .card3 {
+        left: calc(50% + 678px);
+    }
+
+    .card4 {
+        left: calc(50% + 982px);
+    }
+
+    .card5 {
+        left: calc(50% + 1286px);
+    }
+
+    .card6 {
+        left: calc(50% + 1590px);
+    }
+
+    .card7 {
+        left: calc(50% + 1894px);
+    }
+
+    .card8 {
+        left: calc(50% + 2198px);
+    }
+
+    .card9 {
+        left: calc(50% + 2500px);
+    }
+
+    .card10 {
+        left: calc(50% + 2806px);
+    }
+
+    .card11 {
+        left: calc(50% + 3110px);
+    }
+
+    .dots {
+        width: 13px;
+        height: 13px;
+    }
+
+    /* Slides */
+
+    .slide0 {
+        left: calc(50% + -3110px);
+    }
+
+    .slide1 {
+        left: calc(50% + -2806px);
+    }
+
+    .slide2 {
+        left: calc(50% + -2500px);
+    }
+
+    .slide3 {
+        left: calc(50% + -2198px);
+    }
+
+    .slide4 {
+        left: calc(50% + -1894px);
+    }
+
+    .slide5 {
+        left: calc(50% + -1590px);
+    }
+
+    .slide6 {
+        left: calc(50% + -1286px);
+    }
+
+    .slide7 {
+        left: calc(50% + -982px);
+    }
+
+    .slide8 {
+        left: calc(50% + -678px);
+    }
+
+    .slide9 {
+        left: calc(50% + -356px);
+    }
+
+    .slide10 {
+        left: calc(50%);
+    }
+
+    .slide11 {
+        left: calc(50% + 356px);
+    }
+
+    .slide12 {
+        left: calc(50% + 678px);
+    }
+
+    .slide13 {
+        left: calc(50% + 982px);
+    }
+
+    .slide14 {
+        left: calc(50% + 1286px);
+    }
+
+    .slide15 {
+        left: calc(50% + 1590px);
+    }
+
+    .slide16 {
+        left: calc(50% + 1894px);
+    }
+
+    .slide17 {
+        left: calc(50% + 2198px);
+    }
+
+    .slide18 {
+        left: calc(50% + 2500px);
+    }
+
+    .slide19 {
+        left: calc(50% + 2806px);
+    }
+}
+
+@media screen and (max-width: 1250px) {
+    header {
+        padding: 0 20px;
+    }
+}
