@@ -14,6 +14,14 @@ The Cityscape Carousel is a simple, clean, and interactive web component built u
 
 ---
 
+## 🌐 Directly Visit Website
+
+Want to explore the carousel in action? Click the link below to visit the live website:
+
+[The Cityscape Carousel](https://farankhan125.github.io/The-Cityscape-Carousel/)
+
+---
+
 ## 🛠️ Tech Stack
 
 - **HTML5**
