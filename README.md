@@ -74,6 +74,10 @@ git push origin feature/new-capital
 
 Go to your fork on GitHub, and you'll see a prompt to "Compare & pull request" — click that and submit your PR!
 
+## 📄 License
+
+This project is licensed under the MIT License — feel free to use and modify it.
+
 ## 📬 Contact
 Made with ❤️ by Faran Khan  
 GitHub: @farankhan125
