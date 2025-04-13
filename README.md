@@ -60,7 +60,7 @@ Got a cool idea or want to add more cities? Feel free to fork and contribute!
 
 1. **Fork the project**  
 
-[The Cityscape Carousel](https://github.com/farankhan125/The-Cityscape-Carousel.git)
+Click Here: [The Cityscape Carousel](https://github.com/farankhan125/The-Cityscape-Carousel.git)
 
 2. **Clone your forked repo**
 ```bash
