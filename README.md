@@ -49,8 +49,8 @@ That's it! 🎉 No build tools or dependencies required.
 ---
 
 ## 📸 Demo Preview
-Add a screenshot or GIF here if possible
-You can also deploy the project with GitHub Pages or Netlify for a live preview.
+![Alt text](Show%20Case%20For%20Readme/img1.JPG)
+![Alt text](Show%20Case%20For%20Readme/img2.JPG)
 
 ---
 
