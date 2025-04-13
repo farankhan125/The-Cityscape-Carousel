@@ -76,5 +76,4 @@ Go to your fork on GitHub, and you'll see a prompt to "Compare & pull request" �
 
 ## 📬 Contact
 Made with ❤️ by Faran Khan  
-
 GitHub: @farankhan125
