@@ -46,11 +46,20 @@ You can also deploy the project with GitHub Pages or Netlify for a live preview.
 
 Got a cool idea or want to add more cities? Feel free to fork and contribute!
 
-Fork the project
-Create your feature branch (git checkout -b feature/new-capital)
-Commit your changes (git commit -m 'Add new capital city card')
-Push to the branch (git push origin feature/new-capital)
-Open a Pull Request
+1. **Fork the project**
+2. **Create your feature branch**
+```bash
+git checkout -b feature/new-capital
+```
+4. **Commit your changes**
+```bash
+git commit -m 'Add new capital city card'
+```
+5. **Push to the branch**
+```bash
+git push origin feature/new-capital
+```
+6. **Open a Pull Request**
 
 ## 📬 Contact
 Made with ❤️ by Faran Khan
