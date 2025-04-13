@@ -32,7 +32,7 @@ git clone https://github.com/farankhan125/the-cityscape-carousel.git
 ```
 2. **Navigate to the project folder**
 ```bash
-cd the-cityscape-carousel
+cd The-Cityscape-Carousel
 ```
 3. **Open index.html in your browser**
 
