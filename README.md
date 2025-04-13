@@ -75,5 +75,6 @@ git push origin feature/new-capital
 Go to your fork on GitHub, and you'll see a prompt to "Compare & pull request" — click that and submit your PR!
 
 ## 📬 Contact
-Made with ❤️ by Faran Khan
+Made with ❤️ by Faran Khan  
+
 GitHub: @farankhan125
