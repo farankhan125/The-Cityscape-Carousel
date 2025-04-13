@@ -47,7 +47,9 @@ You can also deploy the project with GitHub Pages or Netlify for a live preview.
 Got a cool idea or want to add more cities? Feel free to fork and contribute!
 
 1. **Fork the project**  
+
 Click Here: https://github.com/farankhan125/The-Cityscape-Carousel.git
+
 2. **Clone your forked repo**
 ```bash
 git clone https://github.com/your-username/The-Cityscape-Carousel.git
@@ -68,7 +70,8 @@ git commit -m 'Add new capital city card'
 ```bash
 git push origin feature/new-capital
 ```
-7. **Open a Pull Request**
+7. **Open a Pull Request**  
+
 Go to your fork on GitHub, and you'll see a prompt to "Compare & pull request" — click that and submit your PR!
 
 ## 📬 Contact
