@@ -49,7 +49,8 @@ That's it! 🎉 No build tools or dependencies required.
 ---
 
 ## 📸 Demo Preview
-![Image1](Showcase%20Images%20For%20Readme/img1.JPG)  
+![Image1](Showcase%20Images%20For%20Readme/img1.JPG)
+
 ![Image2](Showcase%20Images%20For%20Readme/img2.JPG)
 
 ---
