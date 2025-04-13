@@ -47,6 +47,7 @@ You can also deploy the project with GitHub Pages or Netlify for a live preview.
 Got a cool idea or want to add more cities? Feel free to fork and contribute!
 
 1. **Fork the project**
+Click Here: https://github.com/farankhan125/The-Cityscape-Carousel.git
 2. **Create your feature branch**
 ```bash
 git checkout -b feature/new-capital
