@@ -46,9 +46,13 @@ cd The-Cityscape-Carousel
 
 That's it! 🎉 No build tools or dependencies required.
 
+---
+
 ## 📸 Demo Preview
 Add a screenshot or GIF here if possible
 You can also deploy the project with GitHub Pages or Netlify for a live preview.
+
+---
 
 ## 🧑‍💻 Contributing
 
@@ -82,9 +86,13 @@ git push origin feature/new-capital
 
 Go to your fork on GitHub, and you'll see a prompt to "Compare & pull request" — click that and submit your PR!
 
+---
+
 ## 📄 License
 
 This project is licensed under the MIT License — feel free to use and modify it.
+
+---
 
 ## 📬 Contact
 Made with ❤️ by Faran Khan  
