@@ -29,11 +29,11 @@ You can run this project locally in just a few steps:
 1. **Clone the repository**
 ```bash
 git clone https://github.com/farankhan125/the-cityscape-carousel.git
-```
+```bash
 2. **Navigate to the project folder**
-```
+```bash
 cd the-cityscape-carousel
-```
+```bash
 3. **Open index.html in your browser**
 
 That's it! 🎉 No build tools or dependencies required.
