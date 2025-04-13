@@ -36,12 +36,11 @@ cd the-cityscape-carousel
 3. **Open index.html in your browser**
 
 That's it! 🎉 No build tools or dependencies required.
+```
 
 ## 📸 Demo Preview
 Add a screenshot or GIF here if possible
 You can also deploy the project with GitHub Pages or Netlify for a live preview.
-
-.
 
 ## 🧑‍💻 Contributing
 
