@@ -65,7 +65,7 @@ Click Here: [The Cityscape Carousel](https://github.com/farankhan125/The-Citysca
 
 2. **Clone your forked repository**
 ```bash
-git clone https://github.com/your-username/The-Cityscape-Carousel.git
+git clone https://github.com/farankhan125/The-Cityscape-Carousel.git
 ```
 3. **Navigate into the project folder**
 ```bash
