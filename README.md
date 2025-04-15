@@ -1,6 +1,6 @@
 # 🌆 The Cityscape Carousel
 
-The Cityscape Carousel is a simple, clean, and interactive web component built using **HTML, CSS, and JavaScript**. It showcases a collection of **11 capital city cards**, each featuring the **city's name** and a **short description**. Users can slide through the cards using left and right navigation buttons.
+The Cityscape Carousel is a simple, clean, and interactive web component. It showcases a collection of **11 capital city cards**, each featuring the **city's name** and a **short description**. Users can slide through the cards using left and right navigation buttons.
 
 ---
 
